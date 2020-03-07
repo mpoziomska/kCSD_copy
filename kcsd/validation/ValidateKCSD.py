@@ -18,8 +18,8 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from scipy.interpolate import griddata
 from matplotlib import colors, gridspec
-from kcsd import csd_profile as CSD
-from kcsd import KCSD1D, KCSD2D, KCSD3D, MoIKCSD
+from kCSD_copy.kcsd import csd_profile as CSD
+from kCSD_copy.kcsd import KCSD1D, KCSD2D, KCSD3D, MoIKCSD
 
 
 try:

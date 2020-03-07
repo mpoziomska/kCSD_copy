@@ -11,8 +11,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
 
-from kcsd import ValidateKCSD1D, ValidateKCSD2D, ValidateKCSD3D
-from kcsd import csd_profile as CSD
+from kCSD_copy.kcsd import ValidateKCSD1D, ValidateKCSD2D, ValidateKCSD3D
+from kCSD_copy.kcsd import csd_profile as CSD
 
 try:
     from joblib import Parallel, delayed
